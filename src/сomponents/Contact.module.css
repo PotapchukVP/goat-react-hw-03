@@ -1,0 +1,49 @@
+.contactContainer {
+  width: 400px;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+.contact {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+
+.button {
+  width: auto;
+  height: 100%;
+  background-color: rgb(113, 38, 111);
+}
+
+.nameSet {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.numberSet {
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.iconPerson {
+  width: 32px;
+  height: auto;
+}
+
+.iconNumber {
+  width: 32px;
+  height: auto;
+}
